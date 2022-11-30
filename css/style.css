@@ -1,0 +1,223 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+body{
+	padding:0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+header{
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 66px;	
+	padding-bottom: 70px;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.logo{	
+	margin-bottom: 147px;
+}
+.title{
+	width: 560px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	font-size: 37px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+.title span{
+	font-size: 59px;
+}
+.intro p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+	font-weight: 400;
+	line-height: 1.7em;
+	margin-bottom: 42px;
+}
+.intro{
+	align-items:center;
+}
+button{
+    cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	border:0;
+	transition: all 0.4s ease;
+	width: 220px;
+}
+button:hover{
+    background: #eac11e;
+}
+.intro{
+	width: 400px;
+}
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.sec2{
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;	
+}
+.ws{
+	margin-bottom: 75px;
+}
+.wishes{
+	display: flex;
+	justify-content: space-between;
+}
+h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 90px;	
+}
+.text{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+.wish{
+	text-align: center;
+}
+.wish1{	
+	background: url('../img/icon1.png') no-repeat center top;
+	width: 285px
+}
+.wish2{
+	background: url('../img/icon2.png') no-repeat center top;
+	width: 260px;
+}
+.wish3{
+	background: url('../img/icon3.png') no-repeat center top;
+	width: 300px;
+}
+.forma{
+	background: #ecf3f8;
+	padding-top: 104px;
+	padding-bottom: 102px;
+}
+.title_forma{
+	margin-bottom: 57px;
+}
+.blank{
+	margin: 0 auto;
+}
+input{
+	box-sizing: border-box;
+	padding: 15px 25px;
+	display: block;
+	margin-bottom: 15px;
+	height: 48px;
+	width: 340px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #9f9ea2;
+	border: 1px solid #9f9ea2;
+	border-radius: 2px;
+}
+.btn{
+	width: 342px;
+}
+footer{
+	background: #164d7a;
+	padding-top: 62px;
+	padding-bottom: 66px;
+}
+.copy{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 960px;
+	}
+}
+@media screen and (max-width: 992px){
+	.container{
+		width: 720px;
+	}
+	.wrapper{
+		flex-direction: column;
+	}
+	.intro{
+		width: 100%;
+	}
+	.title{
+		width: 100%;
+	}
+	.travel img{
+		width: 320px;
+		margin: 0 auto;
+	}
+	.logo{
+		margin-bottom:50px;
+	}
+}
+@media screen and (max-width: 768px){
+	.container{
+		width: 540px;
+	}
+}
+@media screen and (max-width: 576px){
+	.wishes{
+		flex-direction: column;
+		align-items: center;
+	}
+	.container{
+		width: 90%;
+	}
+	.wish{
+		margin-bottom: 10px;
+	}
+	.sec2{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+	.forma{
+	padding-top: 50px;
+	padding-bottom: 50px;	
+	}
+	input{
+		width: 300px;
+	}
+	.btn{
+		width: 300px;
+	}
+	.ws{
+		margin-bottom: 50px;
+	}
+	header{
+	padding-top: 50px;	
+	padding-bottom: 50px;
+	}
+}
